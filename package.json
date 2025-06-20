@@ -1,15 +1,12 @@
 {
   "name": "express-pg-crud",
   "version": "1.0.0",
-  "description": "Mini Project - Express and PostgreSQL CRUD API",
+  "description": "CRUD API with Express and PostgreSQL (Supabase)",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "Abdulmuiz Yusuf Abū Ridwān",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -19,4 +16,3 @@
     "nodemon": "^2.0.22"
   }
 }
-

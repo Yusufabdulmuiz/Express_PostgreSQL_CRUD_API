@@ -6,12 +6,13 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
+
 app.use("/api", userRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Express + PostgreSQL API");
+  res.send("API is running...");
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server started on port ${PORT}`);
 });

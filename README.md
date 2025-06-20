@@ -1,12 +1,18 @@
-#My Final Mini Project For 3MTT 
-# Express + Supabase PostgreSQL CRUD API
+# My Final Mini Project For 3MTT 
+# Express PostgreSQL CRUD API
 
-A simple Node.js + Express API connected to Supabase PostgreSQL for user data management.
+This is a REST API built using Express.js and PostgreSQL (hosted on Supabase). It supports full CRUD operations.
 
-## 📦 Setup
+## Endpoints
 
-1. Clone the repo
-2. Install dependencies
-```bash
-npm install
+- GET `/api/users`
+- GET `/api/users/:id`
+- POST `/api/users`
+- PUT `/api/users/:id`
+- DELETE `/api/users/:id`
 
+## Setup
+
+1. Install dependencies:
+   ```bash
+   npm install
